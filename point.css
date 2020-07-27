@@ -1,0 +1,148 @@
+/*#one {
+    height: 145px;
+    width: 145px;
+    border: black solid 4px;
+    border-radius: 15px;
+    top: 30px;
+    background: white;
+}
+
+#two {
+    height: 150px;
+    position: absolute;
+    top: 1%;
+    left: 25%;
+    border: springgreen groove 4px;
+    border-radius: 15px;
+    background: lightgreen;
+}
+
+* {
+    background-color: palegoldenrod;
+}*/
+
+body {
+    margin: 0;
+    background: rgb(250, 249, 249);
+    font-family: 'Work Sans' , sans-serif;
+    font-weight: 400;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: #cfff5f;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.logo {
+    float: left;
+    padding: 10px 0;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 50px;
+
+    position: relative;
+}
+
+nav a {
+    color: #444;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+nav a:hover {
+    color: #000;
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;  
+    background-color: #444;
+
+    position: absolute;
+    top: 0;
+    width: 0%;
+
+    transition: all ease-in-out 200ms;
+}
+
+nav a:hover::before {
+    width: 100%;
+}
+
+.welcome {
+    text-align: center;
+    border: black groove 4px;
+    width: 700px;
+    padding: 4px;
+    padding-left: 16px;
+    padding-top: 16px;
+    padding-right: 16px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 40px;
+    text-shadow: #cfff5f 2px 3px;
+}
+
+p {
+    text-align: center;
+    width: 700px;
+}
+
+.anakin {
+   height: 171.200px;
+   float: left;
+}
+
+.haku {
+    height: 171.200px;
+    float: right;
+}
+
+.about {
+    text-align: center;
+    border: black groove 4px;
+    width: 700px;
+    padding: 4px;
+    padding-left: 16px;
+    padding-top: 16px;
+    padding-right: 16px;
+    margin: auto;   
+}
+
+.contact {
+    text-align: center;
+    border: black groove 4px;
+    width: 700px;
+    padding: 4px;
+    padding-left: 16px;
+    padding-top: 16px;
+    padding-right: 16px;
+    margin: auto; 
+}
